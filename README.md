@@ -79,7 +79,7 @@ The goal is to learn, in a fun way, which type of waste goes where.
 Each member documented their individual work in their own folder inside `Docs/` (file `aportes-NAME.md`).
 
 ## AI Usage
-Generative AI tools were used ethically and declared. The tool, version, prompts, generated results and manual modifications are documented in the AI Usage Declaration included in the `Docs/` folder.
+Generative AI tools were used ethically and declared. The tool, version, prompts, generated results and manual modifications are documented in the AI Usage Declaration included in the `Docs/Diseno` folder.
 
 ## Version
 **v1.0**
