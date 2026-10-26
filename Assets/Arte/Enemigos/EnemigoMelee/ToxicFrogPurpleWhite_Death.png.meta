@@ -1,0 +1,628 @@
+fileFormatVersion: 2
+guid: f64701a65cebcf14d908436ed0377b2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8524209298528094343
+    second: ToxicFrogPurpleWhite_Death_0
+  - first:
+      213: -2047305325193013293
+    second: ToxicFrogPurpleWhite_Death_1
+  - first:
+      213: -1708797277415664395
+    second: ToxicFrogPurpleWhite_Death_2
+  - first:
+      213: 1933178191303349612
+    second: ToxicFrogPurpleWhite_Death_3
+  - first:
+      213: 326782683417139377
+    second: ToxicFrogPurpleWhite_Death_4
+  - first:
+      213: 2472055215385270233
+    second: ToxicFrogPurpleWhite_Death_5
+  - first:
+      213: 73788293544832390
+    second: ToxicFrogPurpleWhite_Death_6
+  - first:
+      213: -8992915563010657299
+    second: ToxicFrogPurpleWhite_Death_7
+  - first:
+      213: -6480660342603951104
+    second: ToxicFrogPurpleWhite_Death_8
+  - first:
+      213: 1083427127313427161
+    second: ToxicFrogPurpleWhite_Death_9
+  - first:
+      213: 2071172519034341616
+    second: ToxicFrogPurpleWhite_Death_10
+  - first:
+      213: -3020408862297489836
+    second: ToxicFrogPurpleWhite_Death_11
+  - first:
+      213: 5227534601286419431
+    second: ToxicFrogPurpleWhite_Death_12
+  - first:
+      213: 4452024421083687604
+    second: ToxicFrogPurpleWhite_Death_13
+  - first:
+      213: 4937038911576924765
+    second: ToxicFrogPurpleWhite_Death_14
+  - first:
+      213: 1408329522457019665
+    second: ToxicFrogPurpleWhite_Death_15
+  - first:
+      213: -4812292490420375311
+    second: ToxicFrogPurpleWhite_Death_16
+  - first:
+      213: -3876765672296048440
+    second: ToxicFrogPurpleWhite_Death_17
+  - first:
+      213: 967323709661441574
+    second: ToxicFrogPurpleWhite_Death_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 15
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78849dd91331c4670800000000000000
+      internalID: 8524209298528094343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 15
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7da1167a28693e0800000000000000
+      internalID: -2047305325193013293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 15
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f41c760ee12948e0800000000000000
+      internalID: -1708797277415664395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 16
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c651b24925704da10800000000000000
+      internalID: 1933178191303349612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 29
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8d3d38e17f88400800000000000000
+      internalID: 326782683417139377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 25
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7d032fe118e4220800000000000000
+      internalID: 2472055215385270233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 17
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d6251ef06260100800000000000000
+      internalID: 73788293544832390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 17
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3faa321feb23380800000000000000
+      internalID: -8992915563010657299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 18
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004512121c11016a0800000000000000
+      internalID: -6480660342603951104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 27
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dae9876b3b190f00800000000000000
+      internalID: 1083427127313427161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_10
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 22
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8c799be684ebc10800000000000000
+      internalID: 2071172519034341616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 27
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ef05e742a5516d0800000000000000
+      internalID: -3020408862297489836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 18
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e38db0f50feb8840800000000000000
+      internalID: 5227534601286419431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 25
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4baae068f94c8cd30800000000000000
+      internalID: 4452024421083687604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52e2d68bb2e38440800000000000000
+      internalID: 4937038911576924765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_15
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 20
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1150fb03d346b8310800000000000000
+      internalID: 1408329522457019665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 20
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0b6310a7d473db0800000000000000
+      internalID: -4812292490420375311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 20
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c89d593926f23ac0800000000000000
+      internalID: -3876765672296048440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ToxicFrogPurpleWhite_Death_18
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 23
+        width: 49
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62eee21f9cf9c6d00800000000000000
+      internalID: 967323709661441574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dee4523a7f16aa84797ca43c08ddd410
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ToxicFrogPurpleWhite_Death_0: 8524209298528094343
+      ToxicFrogPurpleWhite_Death_1: -2047305325193013293
+      ToxicFrogPurpleWhite_Death_10: 2071172519034341616
+      ToxicFrogPurpleWhite_Death_11: -3020408862297489836
+      ToxicFrogPurpleWhite_Death_12: 5227534601286419431
+      ToxicFrogPurpleWhite_Death_13: 4452024421083687604
+      ToxicFrogPurpleWhite_Death_14: 4937038911576924765
+      ToxicFrogPurpleWhite_Death_15: 1408329522457019665
+      ToxicFrogPurpleWhite_Death_16: -4812292490420375311
+      ToxicFrogPurpleWhite_Death_17: -3876765672296048440
+      ToxicFrogPurpleWhite_Death_18: 967323709661441574
+      ToxicFrogPurpleWhite_Death_2: -1708797277415664395
+      ToxicFrogPurpleWhite_Death_3: 1933178191303349612
+      ToxicFrogPurpleWhite_Death_4: 326782683417139377
+      ToxicFrogPurpleWhite_Death_5: 2472055215385270233
+      ToxicFrogPurpleWhite_Death_6: 73788293544832390
+      ToxicFrogPurpleWhite_Death_7: -8992915563010657299
+      ToxicFrogPurpleWhite_Death_8: -6480660342603951104
+      ToxicFrogPurpleWhite_Death_9: 1083427127313427161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
