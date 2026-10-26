@@ -1,57 +1,89 @@
-# Minijuego---Recicla-y-avanza
+# Recicla y Avanza
 
-Videojuego 2D sobre buenas prácticas de reciclaje, desarrollado en
-Unity 3D para el curso Programación para Videojuegos (213027A) de
-la UNAD.
+> A 2D recycling game built in Unity where every item you collect teaches you where it belongs.
 
-## Description
-El jugador controla a un personaje que se mueve en una sola pantalla.
-Van apareciendo residuos que puede recolectar. Cada nivel corresponde
-a un tipo de residuo; el nivel actual es el **Nivel Orgánico**.
+Developed for the **Programación para Videojuegos (213027A)** course at **UNAD** (Universidad Nacional Abierta y a Distancia).
 
-- Si recoge un residuo correcto para el nivel, la barra de
-  recolección sube.
-- Si recoge un residuo que no corresponde al nivel, la barra de
-  recolección baja.
-- Aparecen enemigos que lanzan disparos. Si le pegan, el jugador
-  pierde vida.
-- Al completar la recolección, el jugador elige una habilidad y se
-  enfrenta al enemigo final.
+---
 
-El juego busca enseñar de forma divertida qué residuo va en cada
-lugar.
+## Table of Contents
+- [About the Game](#about-the-game)
+- [Gameplay](#gameplay)
+- [Controls](#controls)
+- [Levels](#levels)
+- [How to Run](#how-to-run)
+- [Repository Structure](#repository-structure)
+- [Team](#team)
+- [AI Usage](#ai-usage)
+- [Version](#version)
+
+---
+
+## About the Game
+**Recicla y Avanza** is a single-screen 2D action game about good recycling practices. The player controls a character who must collect waste items that appear in the scene, choosing only the ones that belong to the current level, while dodging enemy attacks.
+
+The goal is to learn, in a fun way, which type of waste goes where.
+
+## Gameplay
+1. Waste items appear on the screen and the player collects them.
+2. **Correct waste** (matching the current level) fills the **collection bar**.
+3. **Wrong waste** (not matching the level) decreases the collection bar.
+4. **Enemies** shoot projectiles at the player. Getting hit costs **lives**.
+5. When the collection bar is full, the player **chooses an ability**.
+6. Then the player faces the **final boss** of the level.
 
 ## Controls
-- Move: [teclas]
-- Collect: [automático al tocar / tecla]
-- Use ability: [tecla]
+| Action | Key |
+|--------|-----|
+| Move | `W` `A` `S` `D` or Arrow keys |
+| Jump | `Space` |
+| Dash | `Shift` |
+| Collect waste | Automatic |
+| Attack | Automatic |
 
-## How to play
-1. Move the character to collect the correct waste items.
-2. Avoid collecting items that do not belong to the level.
-3. Dodge the enemy shots to keep your lives.
-4. Fill the collection bar to finish the level.
-5. Choose an ability and face the final enemy.
+## Levels
+| Level | Waste type | Status |
+|-------|------------|--------|
+| 1 | Organic | In progress |
+| 2 | Coming soon | Planned |
+| 3 | Coming soon | Planned |
 
-## Current status
-Level 1 (Organic) in progress. Final boss not implemented yet.
+## How to Run
+**Requirements:** Unity **6.6**
 
-## How to run
-1. Install Unity (version [X.X.X]).
-2. Clone or download this repository.
-3. Open the project from Unity Hub.
-4. Open the scene in `Assets/Scenes` and press Play.
+1. Clone or download this repository: `git clone https://github.com/SrPerez98/Minijuego---Recicla-y-avanza.git`
+2. Open **Unity Hub** and click **Add project from disk**.
+3. Select the cloned folder and open it with Unity 6.6.
+4. Open the main scene inside `Assets/Scenes`.
+5. Press the **Play** button.
+
+## Repository Structure
+| Folder | Content |
+|--------|---------|
+| `Assets/` | Game content (art, audio, scripts, scenes, prefabs, UI) |
+| `Packages/` | Unity package dependencies |
+| `ProjectSettings/` | Unity project configuration |
+| `Docs/Diseno/` | Original design assets and designer contributions |
+| `Docs/Audio/` | Original audio files and sound designer contributions |
+| `Docs/QA/` | Test reports and QA contributions |
+| `Docs/Programacion/` | Programmer contributions |
 
 ## Team
 | Member | Role |
 |--------|------|
-| Ángel David Carrasquilla | Programmer |
-| Yeycol David Aristizabal | Designer |
-| Joseph Andrés Núñez| Producer - Sound designer |
+| Ángel | Programmer |
+| [Name] | Designer |
+| [Name] | Sound Designer |
 | Elias Pérez | QA Tester |
 
-## AI usage
-See the document "Declaración de uso de IA" in the `Docs` folder.
+Each member documented their individual work in their own folder inside `Docs/` (file `aportes-NAME.md`).
+
+## AI Usage
+Generative AI tools were used ethically and declared. The tool, version, prompts, generated results and manual modifications are documented in the AI Usage Declaration included in the `Docs/` folder.
 
 ## Version
-v1.0
+**v1.0**
+
+---
+
+*Universidad Nacional Abierta y a Distancia (UNAD) - Programación para Videojuegos (213027A)*
