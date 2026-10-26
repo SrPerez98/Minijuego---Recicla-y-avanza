@@ -71,9 +71,9 @@ The goal is to learn, in a fun way, which type of waste goes where.
 ## Team
 | Member | Role |
 |--------|------|
-| Ángel | Programmer |
-| [Name] | Designer |
-| [Name] | Sound Designer |
+| Ángel David Carrasquilla Aroca| Programmer |
+| Yeycol David Aristizabal Torres| Designer |
+| Joseph Andrés Núñez Padilla| Sound Designer |
 | Elias Pérez | QA Tester |
 
 Each member documented their individual work in their own folder inside `Docs/` (file `aportes-NAME.md`).
