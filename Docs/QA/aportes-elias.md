@@ -12,7 +12,7 @@
 
 ## Archivos que subí
 - `Docs/QA/Documentos-QA/ReportedeaccesibilidadWCAG2.2yDUA–Escena1,Nivel1.pdf`: reporte de accesibilidad
-- `Docs/QA/Documentos-QA/[nombre-reporte-pruebas].pdf`: reporte de pruebas
+- `Docs/QA/Documentos-QA/Reporte_Evaluacion_Mediciones_Accesibilidad_UNAD.pdf`: reporte de pruebas
 - `README.md`: descripción del juego, controles e instrucciones básicas
 - Carpetas del repositorio: `Docs/Audio`, `Docs/Diseno`, `Docs/Programacion` y `Docs/QA`
 
