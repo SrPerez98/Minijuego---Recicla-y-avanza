@@ -1,5 +1,4 @@
 # Minijuego---Recicla-y-avanza
-# [Nombre del juego]
 
 Videojuego 2D sobre buenas prácticas de reciclaje, desarrollado en
 Unity 3D para el curso Programación para Videojuegos (213027A) de
