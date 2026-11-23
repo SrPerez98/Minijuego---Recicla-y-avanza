@@ -40,3 +40,22 @@
 
 ## Key Takeaways
 I learned how to integrate various Unity systems, working with scripts, prefabs, animations, audio, user interfaces, collisions, and scene transitions. I also reinforced the importance of testing each mechanic incrementally, maintaining an organized project structure, and coordinating the integration of assets developed by other team members.
+
+
+
+## Stage 4 contribution 
+
+*What I did*
+- Replaced the player sprites and integrated the new directional animations in Unity.
+- Improved the movement system using Blend Trees for running, rolling, jumping and attacking.
+- Updated the main menu and upgrade screens while keeping the existing button logic.
+- Improved button interaction by adding visual highlight feedback on hover.
+- Modified the Game Over system so the gameplay completely pauses when the player loses.
+- Added a configurable lifetime to collectibles so they disappear automatically if they are not collected.
+- Tested the implemented changes and corrected integration problems in Unity.
+
+*What I learned*
+- I learned how to connect new visual assets to existing gameplay systems without rebuilding the whole project.
+- Blend Trees make directional animations cleaner and easier to manage.
+- Small gameplay improvements, such as pausing on Game Over or removing old collectibles, help make the game feel more complete.
+- Testing each change separately helps avoid breaking systems that were already working.
