@@ -20,7 +20,7 @@ Developed for the **Programación para Videojuegos (213027A)** course at **UNAD*
 ---
 
 ## About the Game
-**Recicla y Avanza** is a single-screen 2D action game about good recycling practices. The player controls a character who must collect waste items that appear in the scene, choosing only the ones that belong to the current level, while dodging enemy attacks.
+**Eco-Guardián: El secreto del Muranio** is a single-screen 2D action game about good recycling practices. The player controls a character who must collect waste items that appear in the scene, choosing only the ones that belong to the current level, while dodging enemy attacks.
 
 The goal is to learn, in a fun way, which type of waste goes where.
 
@@ -51,7 +51,7 @@ The goal is to learn, in a fun way, which type of waste goes where.
 ## How to Run
 **Requirements:** Unity **6.6**
 
-1. Clone or download this repository: `git clone https://github.com/SrPerez98/Minijuego---Recicla-y-avanza.git`
+1. Clone or download this repository: `git clone https://github.com/SrPerez98/Minijuego---Eco-Guardián: El secreto del Muranio.git`
 2. Open **Unity Hub** and click **Add project from disk**.
 3. Select the cloned folder and open it with Unity 6.6.
 4. Open the main scene inside `Assets/Scenes`.
