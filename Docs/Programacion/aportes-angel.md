@@ -1,44 +1,42 @@
-# Aportes - Angel Carrasquilla
-*Rol:* Programador
+# Contributions stage 4 - Angel Carrasquilla
+*Role:* Programmer
 
-## Qué hice
-- Desarrollé e integré las principales mecánicas del minijuego en Unity, incluyendo movimiento del jugador, dash, salto, ataque cuerpo a cuerpo, sistema de vida y recolección.
+## What I did
+- Developed and integrated the core minigame mechanics in Unity, including player movement, dashing, jumping, melee attacks, a health system, and item collection.
 
-- Implementé el comportamiento de los enemigos melee y ranged, incluyendo persecución, disparos, daño, vida, animaciones y muerte.
+- Implemented behavior for melee and ranged enemies, including chasing, shooting, taking/dealing damage, health management, animations, and death logic.
 
-- Configuré el sistema de residuos buenos y malos, su aparición aleatoria, recolección y efecto sobre la barra de progreso.
+- Set up the system for "good" and "bad" waste items, including their randomized spawning, collection mechanics, and their impact on the progress bar.
 
-- Implementé el sistema de mejoras que se activa al completar la barra de recolección, incluyendo magnetismo, mayor probabilidad de residuos buenos y aumento del rango de recolección.
+- Implemented an upgrade system that activates when the collection bar is filled, providing benefits such as item magnetism, an increased chance of spawning "good" waste, and an expanded collection radius.
 
-- Integré la interfaz del juego: menú principal, Game Over, panel de mejoras, barra de recolección, corazones de vida e indicador de recarga del dash.
+- Integrated the game interface, including the main menu, "Game Over" screen, upgrade panel, collection progress bar, health (hearts), and a dash cooldown indicator.
 
-- Integré animaciones del jugador y de los enemigos mediante spritesheets, Animation Clips y Animator Controllers.
+- Integrated player and enemy animations using spritesheets, Animation Clips, and Animator Controllers.
 
-- Incorporé efectos de sonido para recolección correcta e incorrecta, nivel completado, daño, muerte, dash, salto, disparos, impacto de proyectiles, selección de mejoras, botones y sonido ambiente.
+- Added sound effects for correct/incorrect item collection, level completion, taking damage, death, dashing, jumping, shooting, projectile impacts, selecting upgrades, UI button interactions, and ambient audio.
 
-- Configuré prefabs, colliders, Rigidbody2D, AudioSource, escenas y referencias desde el Inspector.
+- Configured prefabs, colliders, Rigidbody2D components, AudioSources, scenes, and Inspector references.
 
-- Realicé pruebas y correcciones para asegurar que las distintas mecánicas funcionaran de forma conjunta.
+- Conducted testing and debugging to ensure all mechanics functioned correctly together.
 
-## En proceso
-- Continuar con la integración de nuevos enemigos, efectos visuales y otros recursos que sean entregados por los integrantes del equipo.
+## In progress
+- Continuing the integration of new enemies, visual effects, and other assets provided by team members.
 
-- Realizar ajustes finales a partir de las pruebas de QA.
+- Making final adjustments based on QA testing results.
 
-- Revisar y optimizar la experiencia de juego antes de generar la versión final.
+- Reviewing and optimizing the gameplay experience before finalizing the build.
 
-## Archivos que subí
-- Scripts de programación del jugador, enemigos, proyectiles, recolección, mejoras, interfaz y gestores del juego.
+## Files uploaded
+- Programming scripts for the player, enemies, projectiles, collection system, upgrades, UI, and game managers.
 
-- Prefabs configurados de jugador, enemigos, proyectiles y residuos.
+- Configured prefabs for the player, enemies, projectiles, and waste items.
 
-- Escenas MainMenu y MainArena.
+- "MainMenu" and "MainArena" scenes. - Animation Clips and Animator Controllers used for the characters.
 
-- Animation Clips y Animator Controllers utilizados para los personajes.
+- Integrated assets for audio, user interface, and visual elements.
 
-- Recursos integrados de audio, interfaz y elementos visuales.
+- Development-related files located in the `Docs/Programacion` folder, along with the project structure in Unity.
 
-- Archivos correspondientes al desarrollo dentro de la carpeta Docs/Programacion y estructura del proyecto en Unity.
-
-## Aprendizajes
-Aprendí a integrar diferentes sistemas de Unity de manera conjunta, trabajando con scripts, prefabs, animaciones, audio, interfaz, colisiones y cambio de escenas. También reforcé la importancia de probar cada mecánica de forma progresiva, mantener una estructura organizada y coordinar la integración de los recursos desarrollados por los demás integrantes del equipo.
+## Key Takeaways
+I learned how to integrate various Unity systems, working with scripts, prefabs, animations, audio, user interfaces, collisions, and scene transitions. I also reinforced the importance of testing each mechanic incrementally, maintaining an organized project structure, and coordinating the integration of assets developed by other team members.
