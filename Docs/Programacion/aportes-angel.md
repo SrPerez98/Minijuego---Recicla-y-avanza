@@ -1,4 +1,4 @@
-# Contributions stage 4 - Angel Carrasquilla
+# Contributions stage 3 - Angel Carrasquilla
 *Role:* Programmer
 
 ## What I did
