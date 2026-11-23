@@ -1,4 +1,4 @@
-# Recicla y Avanza
+# Eco-Guardián: El secreto del Muranio
 
 > A 2D recycling game built in Unity where every item you collect teaches you where it belongs.
 
@@ -74,7 +74,7 @@ The goal is to learn, in a fun way, which type of waste goes where.
 | Ángel David Carrasquilla Aroca| Programmer |
 | Yeycol David Aristizabal Torres| Designer |
 | Joseph Andrés Núñez Padilla| Sound Designer |
-| Elias Pérez | QA Tester |
+| Elias Pérez Oviedo | QA Tester |
 
 Each member documented their individual work in their own folder inside `Docs/` (file `aportes-NAME.md`).
 
@@ -82,7 +82,7 @@ Each member documented their individual work in their own folder inside `Docs/` 
 Generative AI tools were used ethically and declared. The tool, version, prompts, generated results and manual modifications are documented in the AI Usage Declaration included in the `Docs/Diseno` folder.
 
 ## Version
-**v1.0**
+**v2.0**
 
 ---
 
