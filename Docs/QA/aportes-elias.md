@@ -26,24 +26,33 @@ ________________________________________________________________________________
 
 ## Stage 4 contribution – Elías Pérez Oviedo (QA Tester)
 
+
 **What I did**
-- Tested the game in two rounds (intermediate and final build): movement, collection, enemies, menus, upgrades and accessibility (no sound, grayscale and keyboard only).
-- Wrote the QA test report with 29 bug reports and evidence screenshots.
-- Measured approximate color contrast of items, enemies and text.
-- Reviewed the repository and updated the README.
+
+Tested the game across two rounds (intermediate and final builds), covering movement, item collection, enemies, menus, upgrades, and accessibility (no audio, grayscale mode, keyboard-only navigation, and approximate color contrast measurement).
+
+Wrote the formal QA test report with 29 detailed bug reports (reproduction steps, expected vs. actual results, severity, status, and evidence screenshots).
+
+Verified fixes between builds (character animation and stage boundaries) and documented pending usability/accessibility issues (low contrast on waste items and enemies, missing numeric values on the progress bar, and keyboard navigation in the upgrades screen).
+
+Reviewed the repository and updated the README.
+
+Used AI (Claude) to help structure the test plan and polish the report writing, while executing all tests, screenshots, and observations manually (disclosed in the report).
+
+**Challenge & How I Solved It**
+
+Testing while assets were still changing: Team members continued updating sprites, menus, and HUD elements while testing was underway. I solved this by splitting QA into two structured rounds and adding a comparison column to objectively track which issues were fixed and which remained open.
 
 **What I learned**
-- Testing a game also means making sure everyone can play it.
-- Clear bug reports help the team fix problems faster.
-- Comparing two rounds shows what was really fixed.
+
+Game QA is not just about finding bugs—it also means ensuring accessibility so everyone can play.
+
+Clear, reproducible bug reports with visual evidence improve team communication and speed up fixes.
+
+Comparing two testing rounds provides objective proof of what was actually resolved.
 
 **Files**
-- Docs/QA/Stage4-QA-Report/QA_Final_Report_Eco-Guardian_Stage4.docx
-- Docs/QA/Stage4-QA-Report/evidence/
 
-**AI usage**
-- Tool: Claude (Anthropic), Claude Sonnet 5.5, chat interface.
-- Purpose: help organize the test plan and draft the QA report.
-- Prompts: [paste your exact prompts]
+Docs/QA/Stage4-QA-Report/QA_Final_Report_Eco-Guardian_Stage4.docx
 - Result: [what Claude produced]
 - Manual changes: I ran every test, took all screenshots and wrote the observations myself. [Describe what you corrected in the report.]
