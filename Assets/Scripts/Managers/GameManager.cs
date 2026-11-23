@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     [Header("Game Over")]
     [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject gameOverDarkOverlay;
 
     [Header("Game Systems")]
     [SerializeField] private EnemySpawner enemySpawner;
@@ -31,14 +32,24 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        // Make sure the game always starts normally.
         Time.timeScale = 1f;
+
         isGameOver = false;
 
+        // Hide the Game Over interface at the beginning.
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(false);
         }
 
+        // Hide the dark overlay at the beginning.
+        if (gameOverDarkOverlay != null)
+        {
+            gameOverDarkOverlay.SetActive(false);
+        }
+
+        // Enable gameplay systems.
         if (enemySpawner != null)
         {
             enemySpawner.enabled = true;
@@ -59,21 +70,31 @@ public class GameManager : MonoBehaviour
 
         isGameOver = true;
 
+        // Stop systems that generate new objects.
         StopGameSystems();
 
+        // Show the dark background first.
+        if (gameOverDarkOverlay != null)
+        {
+            gameOverDarkOverlay.SetActive(true);
+        }
+
+        // Show the Game Over panel over the dark background.
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
         }
 
+        // Play the Game Over sound.
         if (audioSource != null && gameOverClip != null)
         {
             audioSource.PlayOneShot(gameOverClip);
         }
 
+        // Completely pause gameplay.
         Time.timeScale = 0f;
 
-        Debug.Log("Game Over.");
+        Debug.Log("Game Over - Game paused.");
     }
 
     private void StopGameSystems()
@@ -91,6 +112,7 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
+        // Resume time before reloading the scene.
         Time.timeScale = 1f;
 
         SceneManager.LoadScene(
@@ -100,7 +122,9 @@ public class GameManager : MonoBehaviour
 
     public void ReturnToMainMenu()
     {
+        // Resume time before changing scenes.
         Time.timeScale = 1f;
+
         SceneManager.LoadScene(mainMenuSceneName);
     }
 
@@ -109,6 +133,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
 
         Debug.Log("Closing game...");
+
         Application.Quit();
     }
 }

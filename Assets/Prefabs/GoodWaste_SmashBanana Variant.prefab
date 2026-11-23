@@ -61,8 +61,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5172857299410665965, guid: d49a34e54286ad64c99fae34ddcd67b5, type: 3}
+      propertyPath: lifetime
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5172857299410665965, guid: d49a34e54286ad64c99fae34ddcd67b5, type: 3}
       propertyPath: collectionValue
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7915482826855965908, guid: d49a34e54286ad64c99fae34ddcd67b5, type: 3}
       propertyPath: m_Name

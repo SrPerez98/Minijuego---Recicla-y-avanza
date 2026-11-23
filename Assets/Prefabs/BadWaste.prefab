@@ -144,3 +144,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleItem
   wasteType: 1
   collectionValue: 10
+  lifetime: 6
+  magnetSpeed: 4

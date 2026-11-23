@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9dea862e5ec27149ae10831e61ebc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 1
+  maxHealth: 3
   enemyAnimator: {fileID: 0}
   audioSource: {fileID: 1198662102820822822}
   deathClip: {fileID: 8300000, guid: ce108b1db9b237347bc765789daeedff, type: 3}

@@ -88,6 +88,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BadWaste_Juice Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9028197780978496883, guid: b7bb0ea0aeaa9ad4a97734f6bf9b3c21, type: 3}
+      propertyPath: lifetime
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
